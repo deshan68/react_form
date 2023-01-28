@@ -16,3 +16,18 @@ input {
   width: 50%;
   margin: 5px;
 }
+.errorMsg {
+  font-size: "12px";
+  animation-duration: 2s;
+  animation-name: changeShadow;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes changeShadow {
+  from {
+    color: rgb(255, 255, 255);
+  }
+  to {
+    color: rgb(255, 0, 51);
+  }
+}
